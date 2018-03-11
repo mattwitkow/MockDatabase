@@ -1,0 +1,3 @@
+create table test (primary String ps, integer i, boolean b)
+insert into test values ("cba",5, null)
+insert into test (ps, i, b) values ("a",11, null)
